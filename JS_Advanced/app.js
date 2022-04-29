@@ -22,13 +22,27 @@ function changeText() {
   paragraphElement.style.backgroundColor = "aqua";
 }
 
-paragraphElement.addEventListener("click", changeText);
+paragraphElement.addEventListener("dblclick", changeText);
 
-let inputElement = document.querySelector('input');
+// new topic
 
-function retrieveUserText() {
-    let userText = inputElement.value;
-    console.log(userText);
+let inputElement = document.querySelector("input");
+let maxCharAllowed = inputElement.maxLength; 
+
+function retrieveUserText(event) {
+  // let userText = inputElement.value;
+
+  let userText = event.target.value;
+  let userTextLength = userText.lenght;
+
+  let remainingChar = maxCharAllowed - userText;
+  
+  }
+  //console.log(userText);
+  
+
+  
+  //console.log(event);
 }
 
-inputElement.addEventListener('input',retrieveUserText);
+inputElement.addEventListener("input", retrieveUserText);

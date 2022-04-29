@@ -1,0 +1,92 @@
+#hero{
+    height: 900px;
+    background-image: url(images/hero_image/wp5240503.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content{
+    background-color: rgba(51, 47, 47, 0.8);
+    padding: 36px 0;
+    text-align: center;
+    position: relative;
+    top: 216px;
+    margin: auto;
+    border-radius: 9px;
+    box-shadow: 2px 4px 9px rgb(0, 0, 0);
+    width: 870px;
+    
+}
+
+#hero-content h2 {
+  color: rgb(18, 19, 21);
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+#hero-content p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 32px;
+  }
+
+  #hero-content a {
+    text-decoration: none;
+    background-color: rgb(255, 153, 0);
+    padding: 12px 24px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  }
+  
+  #highlights{
+    padding: 24px;
+    background: linear-gradient(225deg, rgb(211, 193, 162), rgb(226, 234, 238));
+    height: 510px;
+  }
+
+  #highlights h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    color: rgb(56, 65,64 );
+    margin: 24;
+  }
+
+  #destinations{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   width: 90%;
+  }
+
+  .destination{
+    margin: 0 20px;
+  }
+
+  .destination img {
+    height: 200px;
+    width: 260px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .destination p{
+    text-align: center;
+    color: rgb(124, 123, 123);
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+  .destination strong {
+    color: rgb(0, 160, 117);
+  }
+
